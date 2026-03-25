@@ -1,0 +1,11 @@
+Model,LOO_R2,LOO_RMSE,LOO_MAE,Features
+M5_Ridge,-0.11593,0.460861,0.382192,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean', 'Long_Rain_mm', 'Short_Rain_mm', 'GS_Temp_clean', 'Max_Monthly_Rain', 'Rainy_Months']"
+M6_Lasso,-0.190083,0.475926,0.419641,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean', 'Long_Rain_mm', 'Short_Rain_mm', 'GS_Temp_clean', 'Max_Monthly_Rain', 'Rainy_Months']"
+M1_Simple_OLS_Rain,-0.363641,0.50945,0.432149,['Annual_Rainfall_mm']
+M10_Gradient_Boosting,-0.382071,0.512881,0.434397,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean', 'Long_Rain_mm', 'Short_Rain_mm', 'GS_Temp_clean', 'Max_Monthly_Rain', 'Rainy_Months']"
+M2_Simple_OLS_Temp,-0.508318,0.535794,0.470012,['Annual_Mean_Temp_clean']
+M9_Random_Forest,-0.510586,0.536196,0.454657,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean', 'Long_Rain_mm', 'Short_Rain_mm', 'GS_Temp_clean', 'Max_Monthly_Rain', 'Rainy_Months']"
+M8_Time_Trend,-0.561697,0.545192,0.47198,['Year']
+M3_Multiple_OLS,-0.686941,0.566632,0.468138,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean']"
+M7_Polynomial_Rain,-0.770154,0.580439,0.495032,['Annual_Rainfall_mm']
+M4_Multiple_OLS_Full,-3.712681,0.947077,0.740219,"['Annual_Rainfall_mm', 'Annual_Mean_Temp_clean', 'Long_Rain_mm', 'Short_Rain_mm', 'GS_Temp_clean', 'Max_Monthly_Rain', 'Rainy_Months']"

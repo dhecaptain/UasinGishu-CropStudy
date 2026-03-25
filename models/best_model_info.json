@@ -1,0 +1,15 @@
+{
+  "name": "M5_Ridge",
+  "LOO_R2": -0.11593,
+  "LOO_RMSE": 0.460861,
+  "LOO_MAE": 0.382192,
+  "features": [
+    "Annual_Rainfall_mm",
+    "Annual_Mean_Temp_clean",
+    "Long_Rain_mm",
+    "Short_Rain_mm",
+    "GS_Temp_clean",
+    "Max_Monthly_Rain",
+    "Rainy_Months"
+  ]
+}

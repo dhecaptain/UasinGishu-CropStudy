@@ -1,0 +1,36 @@
+{
+  "rainfall_monthly": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": []
+  },
+  "rainfall_annual": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": []
+  },
+  "temperature_monthly": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": [
+      "Flagged 29 temp outliers; imputed with monthly mean \u2192 Mean_Temp_C_clean"
+    ]
+  },
+  "temperature_annual": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": []
+  },
+  "maize_yield": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": []
+  },
+  "panel_annual": {
+    "missing_before": 0,
+    "duplicates": 0,
+    "actions": [
+      "Rebuilt panel with 30 engineered features"
+    ]
+  }
+}
